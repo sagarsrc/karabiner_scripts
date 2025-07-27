@@ -1,40 +1,9 @@
 {
-    "description": "Swap Escape and Delete keys",
+    "description": "Escape to Left Mouse Click",
     "manipulators": [
         {
-            "from": { "key_code": "escape" },
-            "to": [{ "key_code": "delete_forward" }],
-            "type": "basic"
-        },
-        {
-            "from": { "key_code": "delete_forward" },
-            "to": [{ "key_code": "escape" }],
-            "type": "basic"
-        },
-        {
-            "from": {
-                "key_code": "escape",
-                "modifiers": { "mandatory": ["command"] }
-            },
-            "to": [
-                {
-                    "key_code": "delete_forward",
-                    "modifiers": ["command"]
-                }
-            ],
-            "type": "basic"
-        },
-        {
-            "from": {
-                "key_code": "escape",
-                "modifiers": { "mandatory": ["option"] }
-            },
-            "to": [
-                {
-                    "key_code": "delete_forward",
-                    "modifiers": ["option"]
-                }
-            ],
+            "from": { "key_code": "esc" },
+            "to": [{ "pointing_button": "button1" }],
             "type": "basic"
         }
     ]
