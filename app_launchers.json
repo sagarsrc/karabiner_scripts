@@ -1,0 +1,61 @@
+{
+    "description": "Caps Lock + g/b/d/t to open or switch to applications",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "g",
+                "modifiers": {
+                    "mandatory": ["left_control", "left_shift", "left_option", "left_command"]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "osascript -e 'tell application \"Google Chrome\" to activate'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "b",
+                "modifiers": {
+                    "mandatory": ["left_control", "left_shift", "left_option", "left_command"]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "osascript -e 'tell application \"Brave Browser\" to activate'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "d",
+                "modifiers": {
+                    "mandatory": ["left_control", "left_shift", "left_option", "left_command"]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "osascript -e 'tell application \"Cursor\" to activate'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "t",
+                "modifiers": {
+                    "mandatory": ["left_control", "left_shift", "left_option", "left_command"]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "osascript -e 'tell application \"Warp\" to activate'"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
