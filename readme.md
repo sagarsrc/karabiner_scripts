@@ -21,6 +21,7 @@ A curated collection of keyboard shortcuts and remappings for enhanced productiv
 | `⇪ Caps Lock` + `G` | Open/switch to **Google Chrome** |
 | `⇪ Caps Lock` + `B` | Open/switch to **Brave Browser** |
 | `⇪ Caps Lock` + `D` | Open/switch to **Cursor** |
+| `⇪ Caps Lock` + `T` | Open/switch to **Warp** |
 | `⇪ Caps Lock` + `L` | Clear terminal (sends `⌃ Ctrl` + `L`) |
 
 ---
