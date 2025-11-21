@@ -1,0 +1,47 @@
+{
+    "description": "Caps Lock + g/b/d to open or switch to applications",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "g",
+                "modifiers": {
+                    "mandatory": ["left_control", "left_shift", "left_option", "left_command"]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'Google Chrome'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "b",
+                "modifiers": {
+                    "mandatory": ["left_control", "left_shift", "left_option", "left_command"]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'Brave Browser'"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "d",
+                "modifiers": {
+                    "mandatory": ["left_control", "left_shift", "left_option", "left_command"]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "open -a 'Cursor'"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
