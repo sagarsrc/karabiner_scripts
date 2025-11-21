@@ -10,7 +10,7 @@
             },
             "to": [
                 {
-                    "shell_command": "osascript -e 'tell application \"Google Chrome\" to activate'"
+                    "shell_command": "open -a 'Google Chrome'"
                 }
             ],
             "type": "basic"
@@ -24,7 +24,7 @@
             },
             "to": [
                 {
-                    "shell_command": "osascript -e 'tell application \"Brave Browser\" to activate'"
+                    "shell_command": "open -a 'Brave Browser'"
                 }
             ],
             "type": "basic"
@@ -38,7 +38,7 @@
             },
             "to": [
                 {
-                    "shell_command": "osascript -e 'tell application \"Cursor\" to activate'"
+                    "shell_command": "open -a 'Cursor'"
                 }
             ],
             "type": "basic"
@@ -52,7 +52,7 @@
             },
             "to": [
                 {
-                    "shell_command": "osascript -e 'tell application \"Warp\" to activate'"
+                    "shell_command": "open -a 'Warp'"
                 }
             ],
             "type": "basic"
