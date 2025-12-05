@@ -22,6 +22,7 @@ A curated collection of keyboard shortcuts and remappings for enhanced productiv
 | `⇪ Caps Lock` + `B` | Open/switch to **Brave Browser** |
 | `⇪ Caps Lock` + `D` | Open/switch to **Cursor** |
 | `⇪ Caps Lock` + `T` | Open/switch to **Warp** |
+| `⇪ Caps Lock` + `W` | Open/switch to **WhatsApp** (press twice for WhatsApp Web) |
 | `⇪ Caps Lock` + `L` | Clear terminal (sends `⌃ Ctrl` + `L`) |
 
 ---
