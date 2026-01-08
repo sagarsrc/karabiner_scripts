@@ -163,7 +163,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "w",
+                                    "key_code": "c",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control",
@@ -175,17 +175,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'WhatsApp Web'"
+                                        "shell_command": "open -a 'Claude'"
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "type": "variable_if",
-                                        "name": "whatsapp_pressed",
-                                        "value": 1
-                                    }
-                                ]
+                                "type": "basic"
                             },
                             {
                                 "from": {
@@ -201,37 +194,29 @@
                                 },
                                 "to": [
                                     {
-                                        "set_variable": {
-                                            "name": "whatsapp_pressed",
-                                            "value": 1
-                                        }
-                                    },
+                                        "shell_command": "open -a 'WhatsApp Web'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "m",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_shift",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
                                     {
                                         "shell_command": "open -a 'WhatsApp'"
                                     }
                                 ],
-                                "to_delayed_action": {
-                                    "to_if_invoked": [
-                                        {
-                                            "set_variable": {
-                                                "name": "whatsapp_pressed",
-                                                "value": 0
-                                            }
-                                        }
-                                    ],
-                                    "to_if_canceled": [
-                                        {
-                                            "set_variable": {
-                                                "name": "whatsapp_pressed",
-                                                "value": 0
-                                            }
-                                        }
-                                    ]
-                                },
-                                "type": "basic",
-                                "parameters": {
-                                    "basic.to_delayed_action_delay_milliseconds": 500
-                                }
+                                "type": "basic"
                             }
                         ]
                     },
