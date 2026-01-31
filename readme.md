@@ -22,8 +22,21 @@ A curated collection of keyboard shortcuts and remappings for enhanced productiv
 | `⇪ Caps Lock` + `B` | Open/switch to **Brave Browser** |
 | `⇪ Caps Lock` + `D` | Open/switch to **Cursor** |
 | `⇪ Caps Lock` + `T` | Open/switch to **Warp** |
-| `⇪ Caps Lock` + `W` | Open/switch to **WhatsApp** (press twice for WhatsApp Web) |
+| `⇪ Caps Lock` + `C` | Open/switch to **Claude** |
+| `⇪ Caps Lock` + `W` | Open/switch to **WhatsApp Web** |
+| `⇪ Caps Lock` + `M` | Open/switch to **WhatsApp** |
 | `⇪ Caps Lock` + `L` | Clear terminal (sends `⌃ Ctrl` + `L`) |
+
+---
+
+## 🔄 FN KEY REMAPPING
+**File:** `fn_to_control.json`
+
+| From | To | Description |
+|------|-----|-------------|
+| `Fn` (built-in keyboard) | `⌃ Left Control` | Fn key acts as Left Control |
+
+> **Note:** This is a device-level `simple_modifications` entry applied to all keyboards via a generic `"is_keyboard": true` identifier. It uses `apple_vendor_top_case_key_code: keyboard_fn` which is how macOS exposes the Fn key to Karabiner.
 
 ---
 
