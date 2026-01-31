@@ -111,8 +111,6 @@ A curated collection of keyboard shortcuts and remappings for enhanced productiv
 | Shortcut | Action |
 |----------|--------|
 | `⌃ Ctrl` + `D` | `⌦ Delete` forward (single character) |
-| `⌥ Option` + `D` | `⌥ Option` + `⌦ Delete` forward (delete word) |
-| `⌃ Ctrl` + `⌘ Cmd` + `D` | `⌃ Ctrl` + `⌘ Cmd` + `⌦ Delete` forward |
 
 ---
 
