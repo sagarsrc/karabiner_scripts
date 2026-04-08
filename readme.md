@@ -25,6 +25,7 @@ A curated collection of keyboard shortcuts and remappings for enhanced productiv
 | `⇪ Caps Lock` + `C` | Open/switch to **Claude** |
 | `⇪ Caps Lock` + `W` | Open/switch to **WhatsApp Web** |
 | `⇪ Caps Lock` + `M` | Open/switch to **WhatsApp** |
+| `⇪ Caps Lock` + `O` | Open/switch to **Obsidian** |
 | `⇪ Caps Lock` + `L` | Clear terminal (sends `⌃ Ctrl` + `L`) |
 
 ---
